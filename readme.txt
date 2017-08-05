@@ -14,3 +14,6 @@ Script that will install server
 
 readme.txt
 This is file you are reading right now
+
+launch.bat
+Script that will start server
