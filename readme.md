@@ -14,6 +14,14 @@ Launch **launch.bat** if you want to start Source Server.
 
 It's really easy. Just follow instructions left in the code. To read comments easier you can open config file using notepad++ or orther text editor with syntax highlighting.
 
+### Compatibility with operating systems
+
+| Operating system | Is compatible?   |
+| ---------------- | ---------------- |
+| Windows 10       | Yes              |
+| Windows 8.1      | *Not tested yet* |
+| Windows 7        | *Not tested yet* |
+
 ### What are these files?
 
 This is list of files that you shouldn't launch on your own. Why? They need additional command line parameters and they may not work properly.
