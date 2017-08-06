@@ -57,6 +57,13 @@ set Use_GSLT=0
 set GSLT=
 
 :: CS:GO Dedicated Server ONLY
+:: Use custom map group?
+:: Values:
+::     0 = No (mapcycle.txt will be used instead)
+::     1 = Yes
+set use_custom_map_group=0
+
+:: CS:GO Dedicated Server ONLY
 :: Sets map group
 :: Examples:
 ::     mg_active = Active map pool

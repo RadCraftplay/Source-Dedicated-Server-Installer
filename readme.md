@@ -8,7 +8,7 @@ Edit **config.bat** to adjust the settings to your preferences.
 
 Launch **install.bat** if you want install or update Dedicated Server.
 
-~~Launch **launch.bat** if you want to start Source Server.~~
+Launch **launch.bat** if you want to start Source Server.
 
 ### How to edit configuration file?
 
