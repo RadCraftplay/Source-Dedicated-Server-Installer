@@ -28,15 +28,24 @@ if %appId% == 740 (
         set command_line=%command_line% +mapgroup %map_group%
     )
 )
-::GSLT Token
+:: GSLT Token
 if %appId% == 740 (
     if %Use_GSLT% == 1 (
         set command_line=%command_line% +sv_setsteamaccount %GSLT% -net_port_try 1
     )
 )
-::Game mode and game type
+:: Game mode and game type
 if %appId% == 740 (
     set command_line=%command_line% +game_mode %game_mode% +game_type %game_type%
+)
+:: Bot difficulty
+:: For csgo
+if %appId% == 740 (
+    set command_line=%command_line% +bot_difficulty %bot_difficulty%
+)
+::For TF2
+if %appId% == 232250 (
+    set command_line=%command_line% +tf_bot_difficulty %bot_difficulty%
 )
 
 :: Add command line arguments

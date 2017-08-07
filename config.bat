@@ -75,6 +75,14 @@ set use_custom_map_group=0
 ::     mg_demolition = Demolition map pool
 set map_group=mg_active
 
+:: CSGO and TF2 dedicated server only (for now)
+:: Sets bot difficulty
+:: Values:
+::     0 = easy
+::     1 = normal
+::     2 = hard
+set bot_difficulty=1
+
 :: For advanced users
 :: Additional command line arguments to server executable
 :: For example: +exec autoexec.cfg
