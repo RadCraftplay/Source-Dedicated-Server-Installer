@@ -61,7 +61,7 @@ set GSLT=
 :: Values:
 ::     0 = No (mapcycle.txt will be used instead)
 ::     1 = Yes
-set use_custom_map_group=0
+set use_custom_map_group=1
 
 :: CS:GO Dedicated Server ONLY
 :: Sets map group
